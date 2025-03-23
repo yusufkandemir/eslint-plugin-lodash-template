@@ -52,5 +52,5 @@ a ?  b: c
 
 ## Implementation
 
-- [Rule source](https://github.com/ota-meshi/eslint-plugin-lodash-template/blob/master/lib/rules/no-multi-spaces-in-scriptlet.js)
-- [Test source](https://github.com/ota-meshi/eslint-plugin-lodash-template/blob/master/tests/lib/rules/no-multi-spaces-in-scriptlet.js)
+- [Rule source](https://github.com/yusufkandemir/eslint-plugin-lodash-template/blob/master/lib/rules/no-multi-spaces-in-scriptlet.js)
+- [Test source](https://github.com/yusufkandemir/eslint-plugin-lodash-template/blob/master/tests/lib/rules/no-multi-spaces-in-scriptlet.js)

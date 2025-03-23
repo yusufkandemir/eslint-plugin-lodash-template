@@ -64,5 +64,5 @@ This rule enforces attribute name casing style (kebab-case).
 
 ## Implementation
 
-- [Rule source](https://github.com/ota-meshi/eslint-plugin-lodash-template/blob/master/lib/rules/attribute-name-casing.js)
-- [Test source](https://github.com/ota-meshi/eslint-plugin-lodash-template/blob/master/tests/lib/rules/attribute-name-casing.js)
+- [Rule source](https://github.com/yusufkandemir/eslint-plugin-lodash-template/blob/master/lib/rules/attribute-name-casing.js)
+- [Test source](https://github.com/yusufkandemir/eslint-plugin-lodash-template/blob/master/tests/lib/rules/attribute-name-casing.js)

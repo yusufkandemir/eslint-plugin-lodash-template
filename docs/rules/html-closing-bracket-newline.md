@@ -101,5 +101,5 @@ Plus, you can use [`lodash-template/html-indent`](./html-indent.md) rule to enfo
 
 ## Implementation
 
-- [Rule source](https://github.com/ota-meshi/eslint-plugin-lodash-template/blob/master/lib/rules/html-closing-bracket-newline.js)
-- [Test source](https://github.com/ota-meshi/eslint-plugin-lodash-template/blob/master/tests/lib/rules/html-closing-bracket-newline.js)
+- [Rule source](https://github.com/yusufkandemir/eslint-plugin-lodash-template/blob/master/lib/rules/html-closing-bracket-newline.js)
+- [Test source](https://github.com/yusufkandemir/eslint-plugin-lodash-template/blob/master/tests/lib/rules/html-closing-bracket-newline.js)

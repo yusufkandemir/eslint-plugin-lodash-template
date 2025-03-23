@@ -1,4 +1,4 @@
-# eslint-plugin-lodash-template
+# @yusufkandemir/eslint-plugin-lodash-template
 
 ## 1.1.1
 

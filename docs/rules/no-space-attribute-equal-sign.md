@@ -34,5 +34,5 @@ HTML5 allows spaces around equal signs. But space-less is easier to read, and gr
 
 ## Implementation
 
-- [Rule source](https://github.com/ota-meshi/eslint-plugin-lodash-template/blob/master/lib/rules/no-space-attribute-equal-sign.js)
-- [Test source](https://github.com/ota-meshi/eslint-plugin-lodash-template/blob/master/tests/lib/rules/no-space-attribute-equal-sign.js)
+- [Rule source](https://github.com/yusufkandemir/eslint-plugin-lodash-template/blob/master/lib/rules/no-space-attribute-equal-sign.js)
+- [Test source](https://github.com/yusufkandemir/eslint-plugin-lodash-template/blob/master/tests/lib/rules/no-space-attribute-equal-sign.js)

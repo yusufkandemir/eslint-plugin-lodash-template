@@ -23,5 +23,5 @@ This rule reports HTML comments that include any of the predefined terms specifi
 
 ## Implementation
 
-- [Rule source](https://github.com/ota-meshi/eslint-plugin-lodash-template/blob/master/lib/rules/no-warning-html-comments.js)
-- [Test source](https://github.com/ota-meshi/eslint-plugin-lodash-template/blob/master/tests/lib/rules/no-warning-html-comments.js)
+- [Rule source](https://github.com/yusufkandemir/eslint-plugin-lodash-template/blob/master/lib/rules/no-warning-html-comments.js)
+- [Test source](https://github.com/yusufkandemir/eslint-plugin-lodash-template/blob/master/tests/lib/rules/no-warning-html-comments.js)

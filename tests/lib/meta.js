@@ -3,7 +3,7 @@
 const assert = require("assert");
 const plugin = require("../..");
 const expectedMeta = {
-    name: "eslint-plugin-lodash-template",
+    name: "@yusufkandemir/eslint-plugin-lodash-template",
     version: require("../../package.json").version,
 };
 

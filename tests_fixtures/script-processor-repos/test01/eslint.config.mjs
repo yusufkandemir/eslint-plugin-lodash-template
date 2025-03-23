@@ -1,6 +1,6 @@
 import eslintJs from "@eslint/js";
 import globals from "globals";
-import lodashTemplatePlugin from "eslint-plugin-lodash-template";
+import lodashTemplatePlugin from "@yusufkandemir/eslint-plugin-lodash-template";
 
 export default [
     eslintJs.configs.all,

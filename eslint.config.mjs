@@ -1,4 +1,4 @@
-import eslintPluginLodashTemplate from "eslint-plugin-lodash-template";
+import eslintPluginLodashTemplate from "@yusufkandemir/eslint-plugin-lodash-template";
 import eslintPluginOtaMeshi from "@ota-meshi/eslint-plugin";
 import eslintPluginEs from "eslint-plugin-es";
 import vueEslintParser from "vue-eslint-parser";

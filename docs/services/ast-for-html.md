@@ -19,9 +19,9 @@ sidebarDepth: 1
 You can use the type definition of this AST:
 
 ```ts
-
 export function create(context) {
-    const microTemplateService = sourceCode.parserServices.getMicroTemplateService()
+    const microTemplateService =
+        sourceCode.parserServices.getMicroTemplateService();
     return {
         "Program:exit"() {
             microTemplateService.traverseDocumentNodes({
@@ -34,13 +34,13 @@ export function create(context) {
                 HTMLComment(node: HTMLComment): void {
                     // ...
                 },
-            })
+            });
         },
-    }
+    };
 }
 ```
 
-See details: [https://github.com/ota-meshi/eslint-plugin-lodash-template/blob/master/lib/ast/html-nodes.js](../../lib/ast/html-nodes.js)
+See details: [https://github.com/yusufkandemir/eslint-plugin-lodash-template/blob/master/lib/ast/html-nodes.js](../../lib/ast/html-nodes.js)
 
 ## HTMLToken
 
@@ -182,4 +182,3 @@ interface HTMLEndTag <: HTMLNode  {
 ```
 
 - This is a HTML element end tag.
-

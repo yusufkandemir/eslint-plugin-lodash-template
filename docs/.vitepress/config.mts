@@ -30,7 +30,7 @@ export default async (): Promise<UserConfig<DefaultTheme.Config>> => {
     const plugin = await import(pluginPath).then((m) => m.default || m);
     return defineConfig({
         base: "/eslint-plugin-lodash-template/",
-        title: "eslint-plugin-lodash-template",
+        title: "@yusufkandemir/eslint-plugin-lodash-template",
         outDir: path.join(dirname, "./dist/eslint-plugin-lodash-template"),
         description:
             "ESLint plugin for John Resig-style micro template, Lodash's template, Underscore's template and EJS.",
@@ -80,7 +80,7 @@ export default async (): Promise<UserConfig<DefaultTheme.Config>> => {
             ],
         },
         themeConfig: {
-            siteTitle: "eslint-plugin-lodash-template",
+            siteTitle: "@yusufkandemir/eslint-plugin-lodash-template",
             search: {
                 provider: "local",
                 options: {
@@ -89,7 +89,7 @@ export default async (): Promise<UserConfig<DefaultTheme.Config>> => {
             },
             editLink: {
                 pattern:
-                    "https://github.com/ota-meshi/eslint-plugin-lodash-template/edit/master/docs/:path",
+                    "https://github.com/yusufkandemir/eslint-plugin-lodash-template/edit/master/docs/:path",
             },
             nav: [
                 { text: "User Guide", link: "/" },
@@ -102,7 +102,7 @@ export default async (): Promise<UserConfig<DefaultTheme.Config>> => {
             socialLinks: [
                 {
                     icon: "github",
-                    link: "https://github.com/ota-meshi/eslint-plugin-lodash-template",
+                    link: "https://github.com/yusufkandemir/eslint-plugin-lodash-template",
                 },
             ],
             sidebar: {

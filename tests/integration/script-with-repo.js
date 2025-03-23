@@ -8,11 +8,11 @@ const testUtils = require("../test-utils");
 
 // cp.execSync("npm pack", { stdio: "inherit" })
 // const orgTgzName = path.resolve(
-//     `eslint-plugin-lodash-template-${
+//     `@yusufkandemir/eslint-plugin-lodash-template-${
 //         require("../../../package.json").version
 //     }.tgz`,
 // )
-// const tgzName = path.resolve("eslint-plugin-lodash-template-test.tgz")
+// const tgzName = path.resolve("@yusufkandemir/eslint-plugin-lodash-template-test.tgz")
 // if (fs.existsSync(tgzName)) {
 //     fs.unlinkSync(tgzName)
 // }

@@ -1,4 +1,4 @@
-import eslintPluginLodashTemplate from "eslint-plugin-lodash-template";
+import eslintPluginLodashTemplate from "@yusufkandemir/eslint-plugin-lodash-template";
 import stylistic from "@stylistic/eslint-plugin";
 import eslintJs from "@eslint/js";
 

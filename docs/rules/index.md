@@ -11,7 +11,7 @@ sidebarDepth: 0
 Enable this plugin using with:
 
 ```js
-import lodashTemplate from "eslint-plugin-lodash-template";
+import lodashTemplate from "@yusufkandemir/eslint-plugin-lodash-template";
 
 export default [...lodashTemplate.configs.base];
 ```
@@ -25,7 +25,7 @@ export default [...lodashTemplate.configs.base];
 Enforce all the rules in this category with:
 
 ```js
-import lodashTemplate from "eslint-plugin-lodash-template";
+import lodashTemplate from "@yusufkandemir/eslint-plugin-lodash-template";
 
 export default [...lodashTemplate.configs.bestPractices];
 ```
@@ -41,7 +41,7 @@ export default [...lodashTemplate.configs.bestPractices];
 Enforce all the rules in this category and all the rules in `Best Practices` categories with:
 
 ```js
-import lodashTemplate from "eslint-plugin-lodash-template";
+import lodashTemplate from "@yusufkandemir/eslint-plugin-lodash-template";
 
 export default [...lodashTemplate.configs.recommended];
 ```
@@ -58,7 +58,7 @@ export default [...lodashTemplate.configs.recommended];
 Enforce all the rules in this category and all the rules in `Best Practices`/`Recommended` categories with:
 
 ```js
-import lodashTemplate from "eslint-plugin-lodash-template";
+import lodashTemplate from "@yusufkandemir/eslint-plugin-lodash-template";
 
 export default [...lodashTemplate.configs.recommendedWithHtml];
 ```

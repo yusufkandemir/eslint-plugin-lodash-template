@@ -1,5 +1,5 @@
 import eslintJs from "@eslint/js";
-import lodashTemplatePlugin from "eslint-plugin-lodash-template";
+import lodashTemplatePlugin from "@yusufkandemir/eslint-plugin-lodash-template";
 import tseslint from "typescript-eslint";
 import globals from "globals";
 

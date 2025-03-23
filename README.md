@@ -1,4 +1,4 @@
-# eslint-plugin-lodash-template
+# @yusufkandemir/eslint-plugin-lodash-template
 
 ESLint plugin for John Resig-style micro templating.
 
@@ -9,8 +9,8 @@ ESLint plugin for John Resig-style micro templating.
 [![npm downloads](https://img.shields.io/npm/dm/eslint-plugin-lodash-template.svg)](https://www.npmtrends.com/eslint-plugin-lodash-template)
 [![npm downloads](https://img.shields.io/npm/dy/eslint-plugin-lodash-template.svg)](https://www.npmtrends.com/eslint-plugin-lodash-template)
 [![npm downloads](https://img.shields.io/npm/dt/eslint-plugin-lodash-template.svg)](https://www.npmtrends.com/eslint-plugin-lodash-template)
-[![Build Status]](https://github.com/ota-meshi/eslint-plugin-lodash-template/actions?query=workflow%3ACI)
-[![Coverage Status]](https://coveralls.io/github/ota-meshi/eslint-plugin-lodash-template?branch=master)
+[![Build Status]](https://github.com/yusufkandemir/eslint-plugin-lodash-template/actions?query=workflow%3ACI)
+[![Coverage Status]](https://coveralls.io/github/yusufkandemir/eslint-plugin-lodash-template?branch=master)
 
 It can be used in projects using [Underscore.js](https://underscorejs.org/#template) and [Lodash](https://lodash.com/docs/#template)'s template.
 
@@ -52,7 +52,7 @@ output sample(on SublimeText):
 ## Installation
 
 ```bash
-npm install --save-dev eslint eslint-plugin-lodash-template
+npm install --save-dev eslint @yusufkandemir/eslint-plugin-lodash-template
 ```
 
 ## Documentation
@@ -66,7 +66,7 @@ Create `eslint.config.*` file to configure rules. See also: [https://eslint.org/
 Example **`eslint.config.*`**:
 
 ```js
-import lodashTemplate from "eslint-plugin-lodash-template";
+import lodashTemplate from "@yusufkandemir/eslint-plugin-lodash-template";
 export default [
     {
         files: ["**/*.html"],
@@ -141,7 +141,7 @@ The `--fix` option on the [command line](https://eslint.org/docs/user-guide/comm
 Enable this plugin using with:
 
 ```js
-import lodashTemplate from "eslint-plugin-lodash-template";
+import lodashTemplate from "@yusufkandemir/eslint-plugin-lodash-template";
 
 export default [...lodashTemplate.configs.base];
 ```
@@ -155,7 +155,7 @@ export default [...lodashTemplate.configs.base];
 Enforce all the rules in this category with:
 
 ```js
-import lodashTemplate from "eslint-plugin-lodash-template";
+import lodashTemplate from "@yusufkandemir/eslint-plugin-lodash-template";
 
 export default [...lodashTemplate.configs.bestPractices];
 ```
@@ -171,7 +171,7 @@ export default [...lodashTemplate.configs.bestPractices];
 Enforce all the rules in this category and all the rules in `Best Practices` categories with:
 
 ```js
-import lodashTemplate from "eslint-plugin-lodash-template";
+import lodashTemplate from "@yusufkandemir/eslint-plugin-lodash-template";
 export default [
     lodashTemplate.configs.recommended,
 
@@ -194,7 +194,7 @@ export default [
 Enforce all the rules in this category and all the rules in `Best Practices`/`Recommended` categories with:
 
 ```js
-import lodashTemplate from "eslint-plugin-lodash-template";
+import lodashTemplate from "@yusufkandemir/eslint-plugin-lodash-template";
 
 export default [
     lodashTemplate.configs.recommendedWithHtml,
@@ -242,7 +242,7 @@ Please set the global variable used in all templates as follows.
 **`eslint.config.*`**:
 
 ```js
-import lodashTemplate from "eslint-plugin-lodash-template";
+import lodashTemplate from "@yusufkandemir/eslint-plugin-lodash-template";
 export default [
     {
         settings: {
@@ -348,7 +348,7 @@ Please configure in your **`eslint.config.*`** as follows:
 (For example, for [EJS](https://ejs.co/).)
 
 ```js
-import lodashTemplate from "eslint-plugin-lodash-template";
+import lodashTemplate from "@yusufkandemir/eslint-plugin-lodash-template";
 export default [
     {
         files: ["**/*.ejs"],
@@ -384,7 +384,7 @@ const obj    = <%= JSON.stringify(options     ) %>
 Please configure in your **`eslint.config.*`** as follows:
 
 ```js
-import lodashTemplate from "eslint-plugin-lodash-template";
+import lodashTemplate from "@yusufkandemir/eslint-plugin-lodash-template";
 export default [
     {
         files: ["**/your/templates/*.js"],
@@ -396,7 +396,7 @@ export default [
 If you do not want to use the included rules, set the details as follows:
 
 ```js
-import lodashTemplate from "eslint-plugin-lodash-template";
+import lodashTemplate from "@yusufkandemir/eslint-plugin-lodash-template";
 export default [
     {
         files: ["**/your/templates/*.js"],
@@ -413,7 +413,7 @@ export default [
 If you want to use it with TypeScript, you need to configure `parserOptions`:
 
 ```js
-import lodashTemplate from "eslint-plugin-lodash-template";
+import lodashTemplate from "@yusufkandemir/eslint-plugin-lodash-template";
 import tseslint from "typescript-eslint";
 
 export default [
@@ -636,6 +636,6 @@ See the [LICENSE] file for license rights and limitations (MIT).
 [npm license]: https://img.shields.io/npm/l/eslint-plugin-lodash-template.svg
 [npm version]: https://img.shields.io/npm/v/eslint-plugin-lodash-template.svg
 [npm downloads]: https://img.shields.io/npm/dw/eslint-plugin-lodash-template.svg
-[Build Status]: https://github.com/ota-meshi/eslint-plugin-lodash-template/workflows/CI/badge.svg?branch=master
-[Coverage Status]: https://coveralls.io/repos/github/ota-meshi/eslint-plugin-lodash-template/badge.svg?branch=master
-[Greenkeeper badge]: https://badges.greenkeeper.io/ota-meshi/eslint-plugin-lodash-template.svg
+[Build Status]: https://github.com/yusufkandemir/eslint-plugin-lodash-template/workflows/CI/badge.svg?branch=master
+[Coverage Status]: https://coveralls.io/repos/github/yusufkandemir/eslint-plugin-lodash-template/badge.svg?branch=master
+[Greenkeeper badge]: https://badges.greenkeeper.io/yusufkandemir/eslint-plugin-lodash-template.svg

@@ -15,9 +15,9 @@ sidebarDepth: 1
 You can use the type definition of this AST:
 
 ```ts
-
 export function create(context) {
-    const microTemplateService = sourceCode.parserServices.getMicroTemplateService()
+    const microTemplateService =
+        sourceCode.parserServices.getMicroTemplateService();
     return {
         "Program:exit"() {
             microTemplateService.traverseMicroTemplates({
@@ -30,14 +30,13 @@ export function create(context) {
                 MicroTemplateEscape(node: MicroTemplateEscape): void {
                     // ...
                 },
-            })
+            });
         },
-    }
+    };
 }
 ```
 
-See details: [https://github.com/ota-meshi/eslint-plugin-lodash-template/blob/master/lib/ast/micro-template-nodes.js](../../lib/ast/micro-template-nodes.js)
-
+See details: [https://github.com/yusufkandemir/eslint-plugin-lodash-template/blob/master/lib/ast/micro-template-nodes.js](../../lib/ast/micro-template-nodes.js)
 
 ## Token
 
@@ -131,5 +130,3 @@ interface MicroTemplateExpressionEnd <: Token  {
 
 - This is the end tag of the template tag.
 - The delimiter string is stored in the `chars` property.
-
-

@@ -3,7 +3,7 @@
     "changelog": [
         "@changesets/changelog-github",
         {
-            "repo": "ota-meshi/eslint-plugin-lodash-template"
+            "repo": "yusufkandemir/eslint-plugin-lodash-template"
         }
     ],
     "commit": false,

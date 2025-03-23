@@ -127,8 +127,8 @@ class DocFile {
         const footerPattern = /## Implementation[\s\S]+$/u;
         const footer = `## Implementation
 
-- [Rule source](https://github.com/ota-meshi/eslint-plugin-lodash-template/blob/master/lib/rules/${ruleName}.js)
-- [Test source](https://github.com/ota-meshi/eslint-plugin-lodash-template/blob/master/tests/lib/rules/${ruleName}.js)
+- [Rule source](https://github.com/yusufkandemir/eslint-plugin-lodash-template/blob/master/lib/rules/${ruleName}.js)
+- [Test source](https://github.com/yusufkandemir/eslint-plugin-lodash-template/blob/master/tests/lib/rules/${ruleName}.js)
 `;
         if (footerPattern.test(this.content)) {
             this.content = this.content.replace(footerPattern, footer);
